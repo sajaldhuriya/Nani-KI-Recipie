@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 99.7vw;
+    height: 930px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 2px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: 99.47vw;
+    height: 10%;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.body{
+    width: 50%;
+    height: 85%;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 0px 30px rgb(12, 6, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.fotter{
+    width: 99.47vw;
+    height: 5%;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 2.2rem;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-name{
+    /* background-color: antiquewhite; */
+    width: 25%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: azure;
+}
+
+.nav-list{
+    /* background-color: antiquewhite; */
+    width: 30%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: azure;
+}
+.Rasgulla{
+    display: flex;
+    flex-direction: row;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.image{
+    width: 2oopx;
+    height: 280px;
+    border-radius: 30px;
+    transition: all 0.6s linear 0s;
+    box-shadow: 1px 1px 10px black;
+}
+.image:hover{
+    transform: scale(1.2);
+}
+h2{
+    transition: all 0.4s linear 0s;
+}
+h2:hover{
+    transform: scale(1.2);
+    color: rgb(224, 71, 11);
+}
+.right-container{
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.left-container{
+    width: 35%;
+    height: 280px;
+    margin-top: 40px;
+    /* background-color: #141E30; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.Barfi{
+    display: flex;
+    flex-direction: row;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+@media (max-width:550px){
+    .brand-name{
+        font-size: 1.2rem;
+    }
+    .main{
+        width: 95vw;
+    }
+    .header{
+        width: 95vw;
+    }
+    .fotter{
+        width: 95vw;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    .image{
+        width: 100px;
+        height: 200px;
+        border-radius: 30px;
+        transition: all 0.6s linear 0s;
+        box-shadow: 1px 1px 10px black;
+    }
+    .main{
+        height: 1300px;
+    }
+    .fotter{
+        font-size: 1rem;
+    }
+    .brand-name{
+        width: ;
+    }
+    .nav-list{
+        width: 50%;
+    }
+
+}
